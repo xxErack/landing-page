@@ -149,12 +149,11 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
 }
 
 .blue-container{
     background: #3882F6;
-    max-width: 1800px;
+    width: 80%;
     height: 40%;
     display: flex;
     flex-direction: row;
