@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* border: 1px solid black; */
 }
 
 .section-one {
@@ -11,6 +12,7 @@
 
 h1{
     font-size: 24px;
+    flex: 1;
 }
 .section-one-left {
     flex: 1;
@@ -38,11 +40,7 @@ a {
     text-decoration:none;
 }
 
-body{
-    display: flex;
-}
 .section-one-a{
-
     flex: 1;
     display: flex;
     color: white;
@@ -50,4 +48,43 @@ body{
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
+}
+
+.section-two{
+    display: flex;
+    flex: 1;
+    background-color: #1F2937;
+}
+
+.section-two-a{
+    flex: 1;
+    display: flex;
+    color: white;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    max-width: 1100px;
+    flex-direction: row;
+}
+
+.section-two-left{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 45px;
+}
+
+.section-two-right{
+    flex: 1;
+    width: 50%;
+    padding: 40px;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    width: 200px;
+    height: 30px;
+    border: 1px blue;
+    border-radius: 10px;
 }
